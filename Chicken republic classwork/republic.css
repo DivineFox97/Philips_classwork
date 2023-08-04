@@ -1,0 +1,315 @@
+
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+     transition: all 0.5s linear;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #FF0000;
+}
+
+body section{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/ChickenRepublic_HomePageBanner.jpg);
+}
+
+body img{
+    height: 110vh;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 155px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+header img{
+    width: 60%;
+    height: 150px;
+    background-color: #FF0000;
+    margin-left: 90px;
+}
+
+
+header nav{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+header nav .myNav {
+    color: #FFFFFF;font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 2px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav .myNav a{
+    color: #FFFFFF;
+    font-size: 21px;
+    text-decoration: none;
+
+}
+
+header nav .myNav .Ho{
+    border-bottom: solid #FF0000 6px;
+}
+
+header nav .myNav a::after{
+    width: 100%;
+    transform: translateX(-50%);
+}
+
+header nav .myNav a:hover{
+border-bottom: solid #FF0000 6px;
+transition-duration: 0.1s;
+padding: 0px, 0px, 15px;
+}
+/* header nav .myNav:hover::after{
+    width: 100%;
+    top: 60px;
+} */
+
+header .sMe{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: baseline;
+    width: 15%;
+    height: 40%;
+}
+
+header .sMe i{
+    color: #FFFFFF;
+    width: 40px;
+    height: 60%;
+}
+
+:root{
+    --yello: #fff212;
+    --red: #ff0000;
+}
+
+*{
+    transition: all .5s linear;
+}
+
+/*body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+.cta{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.cta .upper{
+    width: 100%;
+    height: 70%;
+    background-color: var(--red);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .upper .avatar{
+    width: 19%;
+    height: 65%;
+    border: solid var(--yello) 3px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cta .upper .texts{
+    height: 65%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta .upper .texts .order{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+}
+
+.cta .upper .texts .online{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--yello);
+    font-weight: 900;
+}
+
+
+.cta .lower{
+    height: 30%;
+    width: 100%;
+    background-color: var(--yello);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .lower span{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--red);
+}
+
+.cta:hover .upper{
+    background-color: var(--yello);
+    color: var(--red);
+}
+
+.cta:hover .upper .avatar{
+    border: solid white 3px;
+    background-color: var(--red);
+    color: white;
+}
+
+.cta:hover .upper .texts span{
+    color: var(--red);
+}
+
+.cta:hover .lower{
+    background-color: var(--red);
+}
+
+.cta:hover .lower span{
+    color: white;
+}
+
+.bY{
+    background-color: #FF0000;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bY a{
+    text-decoration: none;
+    color: #ff0000;
+
+}
+
+.bY .On{
+    width: 18vw;
+    height: 25%;
+    border-radius: 20px;
+    font-size: 27px;
+    background-color: #fff212;
+    padding: 0px 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bY .On:hover{
+    background-color: #FFFFFF;
+}
+
+.bY .ic{
+    background-color: #FF0000;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bY .ic div{
+    width: 100px;
+    height: 100%;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bY .ic div a{
+    color: #FFFFFF;
+}
+
+.bY .ic div a:hover{
+    color: #fff212;
+}
+
+.bY .ic div img{
+    width: 80%;
+}
+
+.Tst{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff212;
+
+}
+.Tst span{
+    color: #FF0000;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.Tst img{
+    width: 80%;
+    height: 80%;
+}
